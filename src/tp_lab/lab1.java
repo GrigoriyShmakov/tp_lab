@@ -1,4 +1,4 @@
-4package tp_lab;
+package tp_lab;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
