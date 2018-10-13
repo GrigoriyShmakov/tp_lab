@@ -7,8 +7,6 @@ public class lab1 {
 	   
     public static void main (String[] args) 
     {
-    	int n5=0;
-    
         Scanner scan = new Scanner(System.in);
         System.out.println("Выберите алгоритм:");
         System.out.println("1 - Алгоритм умножения Штрасена");
