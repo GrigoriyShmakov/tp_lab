@@ -10,7 +10,7 @@ public class lab1 {
     	int n5=0;
     
         Scanner scan = new Scanner(System.in);
-        System.out.println("Выберите алгоритм:");
+        System.out.println("Выберите алгоритм1:");
         System.out.println("1 - Алгоритм умножения Штрасена");
         System.out.println("2 - Нахождение определителя");
         System.out.println("3 - Возведение в степень");
