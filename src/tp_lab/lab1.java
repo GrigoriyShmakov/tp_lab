@@ -1,5 +1,6 @@
 4package tp_lab;
 
+import java.util.Date;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -11,7 +12,7 @@ public class lab1 {
     	
     
         Scanner scan = new Scanner(System.in);
-        System.out.println("Выберите алгоритм:");
+        System.out.println("Выберите алгоритм1:");
         System.out.println("1 - Алгоритм умножения Штрасена");
         System.out.println("2 - Нахождение определителя");
         System.out.println("3 - Возведение в степень");
@@ -53,18 +54,27 @@ public class lab1 {
                     s.Zapoln(B,n);;
         		}
         		
+        		/*
         		System.out.println("Матрица 1");
     			s.Print(A);
     			System.out.println("Матрица 2");
     			s.Print(B);
-    			
+    			*/
+        		
+        		long time1 = new Date().getTime();
     			double[][] C = s.multiply(A, B);
+    			long time2 = new Date().getTime();
     			double[][] D = s.fun1(A, B); // функция для проверки
+    			long time3 = new Date().getTime();
     			
+    			 System.out.println("время 1: " + (time2-time1) );
+    			 System.out.println("время 2: " + (time3-time2) );
+    			/*
                 System.out.println("\nРезультат: ");
                 s.Print(C);
                 System.out.println("\nРезультат проверки: ");
                 s.Print(D);
+                */
         	}
         	if(flag == 2)
         	{
