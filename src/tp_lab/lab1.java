@@ -7,7 +7,8 @@ public class lab1 {
 	   
     public static void main (String[] args) 
     {
-    	int n5=0;
+    	int n5=0;///комментарий
+    	
     
         Scanner scan = new Scanner(System.in);
         System.out.println("Выберите алгоритм:");
